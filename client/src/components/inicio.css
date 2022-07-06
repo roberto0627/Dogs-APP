@@ -1,0 +1,68 @@
+.IniCointainter {
+    display: block;
+    background-image: url('../assets/Group 10.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+.titulo-home-container {
+    padding-top: 70px;
+}
+
+.titulo-home {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 90px;
+    font-weight: 600;
+    margin-top: 120px;
+    margin-bottom: 56px;
+}
+
+.subtitulo-home {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: rgb(214, 23, 23);
+}
+
+.btnIni {
+    height: 40px;
+    background-color: #182753;
+    color: white;
+    border: none;
+    width: 140px;
+    height: 37px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+
+}
+
+.btnIni-home:hover {
+    background-color: #324580;
+}
+
+.btnIni:hover {
+    color: rgb(250, 243, 243);
+    background-color: rgb(2, 46, 87, 0.8);
+}
+
+.textIni {
+    color: rgb(0, 90, 141);
+    font-family: monospace;
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+.blue-bar {
+    height: 100%;
+    width: 68px;
+    position: absolute;
+    transform: translate(-34px);
+    background-color: var(--color-action);
+    border-radius: 2px;
+    animation: initial-loading 1.5s ease infinite;
+}
